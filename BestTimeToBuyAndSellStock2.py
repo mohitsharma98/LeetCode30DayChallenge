@@ -13,7 +13,7 @@ Explanation: Buy on day 2 (price = 1) and sell on day 3 (price = 5), profit = 5-
 """
 
 class Solution:
-    def maxProfit(self, prices: List[int]) -> int:
+    def maxProfit(self, prices) -> int:
         if(len(prices)==0):
             return 0
         profit = 0
